@@ -5,7 +5,7 @@
       "name": "vibesdk",
       "dependencies": {
         "@cloudflare/containers": "^0.0.25",
-        "@cloudflare/sandbox": "0.1.3",
+        "@cloudflare/sandbox": "^0.3.2",
         "@noble/ciphers": "^1.3.0",
         "@octokit/rest": "^22.0.0",
         "@radix-ui/react-accordion": "^1.2.12",
@@ -213,7 +213,7 @@
 
     "@cloudflare/kv-asset-handler": ["@cloudflare/kv-asset-handler@0.4.0", "", { "dependencies": { "mime": "^3.0.0" } }, "sha512-+tv3z+SPp+gqTIcImN9o0hqE9xyfQjI1XD9pL6NuKjua9B1y7mNYv0S9cP+QEbA4ppVgGZEmKOvHX5G5Ei1CVA=="],
 
-    "@cloudflare/sandbox": ["@cloudflare/sandbox@0.1.3", "", { "dependencies": { "@cloudflare/containers": "^0.0.25" } }, "sha512-j6LB3Ynz2pBlxlwdhaoip72GZmE8TZYRb9yIlAw+pKd4SoKK26OojyXRrTzeBlUqWGuEM8CWp8XMY82MRShRBA=="],
+    "@cloudflare/sandbox": ["@cloudflare/sandbox@0.3.2", "", { "dependencies": { "@cloudflare/containers": "^0.0.27" } }, "sha512-PfyM2C+kIkTAKvoL59J/lRMopJ6BdkVY/aD5vOsO7yc8z8+LO+yG0hs8Upp0RvxdZo2G7LlrIMKA6TYw8JeU3A=="],
 
     "@cloudflare/unenv-preset": ["@cloudflare/unenv-preset@2.7.3", "", { "peerDependencies": { "unenv": "2.0.0-rc.21", "workerd": "^1.20250828.1" }, "optionalPeers": ["workerd"] }, "sha512-tsQQagBKjvpd9baa6nWVIv399ejiqcrUBBW6SZx6Z22+ymm+Odv5+cFimyuCsD/fC1fQTwfRmwXBNpzvHSeGCw=="],
 
@@ -2556,6 +2556,8 @@
     "@babel/helper-compilation-targets/lru-cache": ["lru-cache@5.1.1", "", { "dependencies": { "yallist": "^3.0.2" } }, "sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w=="],
 
     "@babel/helper-compilation-targets/semver": ["semver@6.3.1", "", { "bin": { "semver": "bin/semver.js" } }, "sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA=="],
+
+    "@cloudflare/sandbox/@cloudflare/containers": ["@cloudflare/containers@0.0.27", "", {}, "sha512-OZ8jbXSochT1a+ip7XyIxhT9IFFrZacmpmFdWAvaKfiAYThwQVEiRETgLshN4MVhSpNjAYkNt7mTrHpUVrRVkw=="],
 
     "@cloudflare/vite-plugin/wrangler": ["wrangler@4.37.1", "", { "dependencies": { "@cloudflare/kv-asset-handler": "0.4.0", "@cloudflare/unenv-preset": "2.7.3", "blake3-wasm": "2.1.5", "esbuild": "0.25.4", "miniflare": "4.20250913.0", "path-to-regexp": "6.3.0", "unenv": "2.0.0-rc.21", "workerd": "1.20250913.0" }, "optionalDependencies": { "fsevents": "~2.3.2" }, "peerDependencies": { "@cloudflare/workers-types": "^4.20250913.0" }, "optionalPeers": ["@cloudflare/workers-types"], "bin": { "wrangler": "bin/wrangler.js", "wrangler2": "bin/wrangler.js" } }, "sha512-ntm1OsIB2r/f7b5bfS84Lzz5QEx3zn4vUsn1JOVz/+7bw8triyytnxbp68OwOimF1vL5A9sQ0Nd+L6u8F3hECg=="],
 
