@@ -115,8 +115,7 @@
 	"migrations": [
 		{
 			"new_sqlite_classes": [
-				"CodeGeneratorAgent",
-				"UserAppSandboxService"
+				"CodeGeneratorAgent"
 			],
 			"tag": "v1"
 		},
